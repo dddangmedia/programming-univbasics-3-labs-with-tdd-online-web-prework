@@ -7,8 +7,16 @@ def sum(first_number, second_number)
 end
 
 def difference(first_number, second_number)
-  difference = first_number + second_number
+  difference = first_number - second_number
   puts difference
 end
 
-def 
+def product(first_number, second_number)
+  product = first_number * second_number
+  puts product
+end
+
+def quotient(first_number, second_number)
+  quotient = first_number / second_number
+  print quotient
+end
